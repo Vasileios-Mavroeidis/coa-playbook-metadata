@@ -1,0 +1,1 @@
+# coa-playbook-metadata-template
