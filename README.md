@@ -1,4 +1,4 @@
-# coa-playbook-metadata-template
+# Metadata Template for Integrating Playbooks into Knowledge Management Systems
 
 
 | Element | Description |
@@ -16,6 +16,16 @@
 | **severity** | From 0 to 100, an integer representing the seriousness of the conditions that this playbook addresses. A value of 0 means specifically undefined. Values range from 1, the lowest severity, to a value of 100, the highest. |
 | **priority** | From 0 to 100, an integer representing the priority of this playbook relative to other defined playbooks. A value of 0 means specifically undefined. Values range from 1, the highest priority, to a value of 100, the lowest. |
 | **organization_type** | The type of organization that the playbook is intended for. This can be an industry sector. |
+| **playbook_type** | The security-related functions the playbook addresses. A playbook may account for multiple types (e.g., detection and investigation). ['Notification', 'Detection', 'Investigation', 'Prevention', 'Mitigation', 'Remediation', 'Attack'] |
+| **playbook_standard** | The standard the playbook conforms to (e.g., CACAO). |
+| **playbook_abstraction** | The playbook's level of abstraction. ['Template', 'Executable'] |
+| **playbook** | The whole playbook in its native format (e.g., CACAO JSON). Security playbook producers and consumers use this property to share and retrieve playbooks. |
+| **playbook_base64** | The whole playbook encoded in base64. Security playbook producers and consumers use this property to share and retrieve playbooks. |
+
+
+
+
+
 
 
 
