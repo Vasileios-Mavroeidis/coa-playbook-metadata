@@ -1,4 +1,4 @@
-# Metadata Template for Integrating Playbooks into Knowledge Management Systems
+# Metadata Template for Integrating Security Playbooks into Knowledge Management Systems
 
 
 | Element | Description |
