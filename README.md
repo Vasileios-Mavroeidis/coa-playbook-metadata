@@ -1,3 +1,5 @@
+**Note: This repository has been transferred and maintained at: https://github.com/fovea-research/security-playbooks-metadata-template**
+
 # Metadata Template for Integrating Security Playbooks into Knowledge Management Systems
 
 
